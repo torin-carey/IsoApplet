@@ -1,3 +1,13 @@
+IsoApplet-4096
+==============
+The purpose of this repository is to add more advanced features to the Java Card applet https://github.com/philipWendland/IsoApplet.
+Currently, support for 3072 and 4096 bit RSA keys has been (partially) added.
+
+The work is **experimental** and is not guaranteed to be bug free (far from it).
+Current bugs include:
+* Buggy decipher operations on higher RSA keys
+* Possibly buggy import of higher RSA keys
+
 General Information
 ===================
 The Java Card IsoApplet (e.g. for use with OpenSC).
